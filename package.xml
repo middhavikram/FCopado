@@ -5,11 +5,7 @@
     <members>Salesforce1</members>
     <name>AppMenu</name>
   </types>
-  <types>
-    <members>Case.Standard</members>
-    <members>Lead.Standard</members>
-    <name>AssignmentRule</name>
-  </types>
+
   <types>
     <members>Case</members>
     <members>Lead</members>
@@ -33,9 +29,7 @@
     <members>standard__Chatter</members>
     <members>standard__Community</members>
     <members>standard__Content</members>
-    <members>standard__LightningSales</members>
-    <members>standard__LightningSalesConsole</members>
-    <members>standard__LightningService</members>
+
     <members>standard__Marketing</members>
     <members>standard__Platform</members>
     <members>standard__Sales</members>
@@ -1429,10 +1423,7 @@
     <members>Case.Standard</members>
     <name>EscalationRule</name>
   </types>
-  <types>
-    <members>Case</members>
-    <name>EscalationRules</name>
-  </types>
+  
   <types>
     <members>LightningSalesConsole_UtilityBar</members>
     <members>LightningService_UtilityBar</members>
@@ -1670,7 +1661,7 @@
     <members>Activities</members>
     <members>Address</members>
     <members>BusinessHours</members>
-    <members>Case</members>
+  
     <members>Company</members>
     <members>Contract</members>
     <members>Entitlement</members>
