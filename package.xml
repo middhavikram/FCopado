@@ -1683,7 +1683,7 @@
     <members>PersonalJourney</members>
     <members>Product</members>
     <members>Quote</members>
-    <members>Search</members>
+    
     <members>Security</members>
     <name>Settings</name>
   </types>
