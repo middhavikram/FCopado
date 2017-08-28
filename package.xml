@@ -15,8 +15,7 @@
     <name>AssignmentRule</name>
   </types>
   <types>
-    <members>Case</members>
-    <members>Lead</members>
+    
     <name>AssignmentRules</name>
   </types>
   <types>
@@ -37,9 +36,7 @@
     <members>standard__Chatter</members>
     <members>standard__Community</members>
     <members>standard__Content</members>
-    <members>standard__LightningSales</members>
-    <members>standard__LightningSalesConsole</members>
-    <members>standard__LightningService</members>
+   
     <members>standard__Marketing</members>
     <members>standard__Platform</members>
     <members>standard__Sales</members>
@@ -1664,7 +1661,7 @@
     <members>Activities</members>
     <members>Address</members>
     <members>BusinessHours</members>
-    <members>Case</members>
+    
     <members>Company</members>
     <members>Contract</members>
     <members>Entitlement</members>
