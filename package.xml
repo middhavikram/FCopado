@@ -9,13 +9,10 @@
     <members>Salesforce1</members>
     <name>AppMenu</name>
   </types>
+
   <types>
-    <members>Case.Standard</members>
-    <members>Lead.Standard</members>
-    <name>AssignmentRule</name>
-  </types>
-  <types>
-    
+    <members>Case</members>
+    <members>Lead</members>
     <name>AssignmentRules</name>
   </types>
   <types>
@@ -36,7 +33,7 @@
     <members>standard__Chatter</members>
     <members>standard__Community</members>
     <members>standard__Content</members>
-   
+
     <members>standard__Marketing</members>
     <members>standard__Platform</members>
     <members>standard__Sales</members>
@@ -53,6 +50,7 @@
     <members>Account.BillingAddress</members>
     <members>Account.BillingGeocodeAccuracy</members>
     <members>Account.CleanStatus</members>
+    <members>Account.Copado_Test__c</members>
     <members>Account.CreatedById</members>
     <members>Account.CreatedDate</members>
     <members>Account.CustomerPriority__c</members>
@@ -754,6 +752,7 @@
     <members>IdeaComment.IsHtml</members>
     <members>IdeaComment.SystemModstamp</members>
     <members>IdeaComment.UpVotes</members>
+    <members>Interest__c.Type__c</members>
     <members>Lead.Address</members>
     <members>Lead.AnnualRevenue</members>
     <members>Lead.CleanStatus</members>
@@ -1331,6 +1330,7 @@
     <members>FeedItem</members>
     <members>ForecastingCategoryMapping</members>
     <members>Idea</members>
+    <members>Interest__c</members>
     <members>Lead</members>
     <members>LeadCleanInfo</members>
     <members>Macro</members>
@@ -1354,6 +1354,10 @@
     <members>User</members>
     <members>UserProvisioningRequest</members>
     <name>CustomObject</name>
+  </types>
+  <types>
+    <members>Interest__c-en_US</members>
+    <name>CustomObjectTranslation</name>
   </types>
   <types>
     <members>standard-Account</members>
@@ -1418,11 +1422,11 @@
     <members>unfiled$public/SupportSelfServiceResetPassword</members>
     <name>EmailTemplate</name>
   </types>
-  Escalation<types>
+  <types>
     <members>Case.Standard</members>
-    <name>Rule</name>
+    <name>EscalationRule</name>
   </types>
-  
+ 
   <types>
     <members>LightningSalesConsole_UtilityBar</members>
     <members>LightningService_UtilityBar</members>
@@ -1458,6 +1462,7 @@
     <members>Event-Event Layout</members>
     <members>Global-Global Layout</members>
     <members>Idea-Idea Layout</members>
+    <members>Interest__c-Interest Layout</members>
     <members>Lead-Lead %28Marketing%29 Layout</members>
     <members>Lead-Lead %28Sales%29 Layout</members>
     <members>Lead-Lead %28Support%29 Layout</members>
@@ -1513,6 +1518,7 @@
     <members>Contract.MyDraftContracts</members>
     <members>Contract.MyInApprovalContracts</members>
     <members>Idea.Ideas_Last_7_Days</members>
+    <members>Interest__c.All</members>
     <members>Lead.AllOpenLeads</members>
     <members>Lead.MyUnreadLeads</members>
     <members>Lead.TodaysLeads</members>
@@ -1658,7 +1664,7 @@
     <members>Activities</members>
     <members>Address</members>
     <members>BusinessHours</members>
-    
+
     <members>Company</members>
     <members>Contract</members>
     <members>Entitlement</members>
@@ -1687,6 +1693,7 @@
     <members>Campaign</members>
     <members>Case</members>
     <members>Contact</members>
+    <members>Interest__c</members>
     <members>Lead</members>
     <members>Opportunity</members>
     <members>Order</members>
@@ -1753,6 +1760,7 @@
     <members>ExchangeUserMapping</members>
     <members>FeedItem</members>
     <members>Idea</members>
+    <members>Interest__c</members>
     <members>Lead</members>
     <members>Macro</members>
     <members>MacroAction</members>
