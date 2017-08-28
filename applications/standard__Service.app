@@ -9,8 +9,4 @@
     <tab>standard-Solution</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>Chile_Object__c</tab>
-    <tab>CustomSearch</tab>
-    <tab>Trial_Pool__c</tab>
-    <tab>Cohurt__c</tab>
 </CustomApplication>
