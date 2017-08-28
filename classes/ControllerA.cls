@@ -2,6 +2,7 @@ public  with sharing class ControllerA {
 
     public static void method1(){
         //Comment from Dev1 sandbox
+        //This comment is from Dev2 sandbox
     }
     
     public static void method2(){
