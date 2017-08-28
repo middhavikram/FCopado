@@ -7,8 +7,5 @@
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
     <tab>standard-ContentFavorites</tab>
-    <tab>Chile_Object__c</tab>
-    <tab>CustomSearch</tab>
-    <tab>Trial_Pool__c</tab>
-    <tab>Cohurt__c</tab>
+    <tab>Interest__c</tab>
 </CustomApplication>

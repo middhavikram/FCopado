@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <customApplicationComponents>
-        <alignment>right</alignment>
-        <customApplicationComponent>Console.BuiltInComponent.macroBrowser</customApplicationComponent>
-        <customApplicationComponent>Console.BuiltInComponent.knowledgeOne</customApplicationComponent>
-        <customApplicationComponent>Console.BuiltInComponent.mostRecentlyUsed</customApplicationComponent>
-    </customApplicationComponents>
     <defaultLandingTab>standard-home</defaultLandingTab>
     <detailPageRefreshMethod>none</detailPageRefreshMethod>
     <enableCustomizeMyTabs>false</enableCustomizeMyTabs>
@@ -14,7 +8,7 @@
     <enableListViewReskin>true</enableListViewReskin>
     <enableMultiMonitorComponents>true</enableMultiMonitorComponents>
     <enablePinTabs>true</enablePinTabs>
-    <enableTabHover>true</enableTabHover>
+    <enableTabHover>false</enableTabHover>
     <enableTabLimits>false</enableTabLimits>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <keyboardShortcuts>
@@ -173,15 +167,6 @@
         <location>full</location>
     </listPlacement>
     <listRefreshMethod>none</listRefreshMethod>
-    <liveAgentConfig>
-        <enableLiveChat>true</enableLiveChat>
-        <openNewAccountSubtab>true</openNewAccountSubtab>
-        <openNewCaseSubtab>true</openNewCaseSubtab>
-        <openNewContactSubtab>true</openNewContactSubtab>
-        <openNewLeadSubtab>true</openNewLeadSubtab>
-        <openNewVFPageSubtab>false</openNewVFPageSubtab>
-        <showKnowledgeArticles>false</showKnowledgeArticles>
-    </liveAgentConfig>
     <saveUserSessions>true</saveUserSessions>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
@@ -189,27 +174,16 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
-    <tab>Chile_Object__c</tab>
-    <tab>CustomSearch</tab>
-    <tab>Trial_Pool__c</tab>
-    <tab>Cohurt__c</tab>
+    <tab>Interest__c</tab>
     <workspaceMappings>
         <mapping>
-            <tab>Chile_Object__c</tab>
-        </mapping>
-        <mapping>
-            <tab>Cohurt__c</tab>
-        </mapping>
-        <mapping>
-            <tab>CustomSearch</tab>
-        </mapping>
-        <mapping>
-            <tab>Trial_Pool__c</tab>
+            <tab>Interest__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>
         <mapping>
+            <fieldName>AccountId</fieldName>
             <tab>standard-Case</tab>
         </mapping>
         <mapping>

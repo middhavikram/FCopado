@@ -9,58 +9,19 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>vikram.middha@9domains.com</defaultCaseOwner>
+    <defaultCaseOwner>vikram.middha@copado.dev2.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>vikram.middha@9domains.com</defaultCaseUser>
+    <defaultCaseUser>vikram.middha@copado.dev2.com</defaultCaseUser>
     <emailToCase>
-        <enableEmailToCase>true</enableEmailToCase>
-        <enableHtmlEmail>false</enableHtmlEmail>
-        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
-        <enableThreadIDInBody>false</enableThreadIDInBody>
-        <enableThreadIDInSubject>false</enableThreadIDInSubject>
-        <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
-        <overEmailLimitAction>Discard</overEmailLimitAction>
-        <preQuoteSignature>false</preQuoteSignature>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Phone</caseOrigin>
-            <caseOwner>TestQueue11</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>middha.vikram@gmail.com</emailAddress>
-            <emailServicesAddress>middha.vikram@o-fvs83hcv8554i1e410s4gz3jdsbuaa4nl3kgvojs2wvz7eg65.28-1qxcfeak.ap2.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Gmail</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Phone</caseOrigin>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>vmiddha@salesforce.com</emailAddress>
-            <emailServicesAddress>vmiddha@1hm0nfj7mwz8163qpfxdga29romcnp7jxp8g301xnmma3echht.28-1qxcfeak.ap2.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Second</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+        <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
-    <enableDraftEmails>false</enableDraftEmails>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
-    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
-    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
-    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
-    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
-    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
-    <systemUserEmail>automatedcase@00d28000001qxcfeak.ext</systemUserEmail>
     <useSystemEmailAddress>true</useSystemEmailAddress>
     <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <webToCase>

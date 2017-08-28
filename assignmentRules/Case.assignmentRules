@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>vikram.middha@9domains.com</assignedTo>
+            <assignedTo>vikram.middha@copado.dev2.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -23,7 +23,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>vikram.middha@9domains.com</assignedTo>
+            <assignedTo>vikram.middha@copado.dev2.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -42,7 +42,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>vikram.middha@9domains.com</assignedTo>
+            <assignedTo>vikram.middha@copado.dev2.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -61,7 +61,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>vikram.middha@9domains.com</assignedTo>
+            <assignedTo>vikram.middha@copado.dev2.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -80,12 +80,12 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>TestQueue11</assignedTo>
-            <assignedToType>Queue</assignedToType>
+            <assignedTo>vikram.middha@copado.dev2.com</assignedTo>
+            <assignedToType>User</assignedToType>
             <criteriaItems>
-                <field>Case.Subject</field>
+                <field>Account.Type</field>
                 <operation>contains</operation>
-                <value>Test123</value>
+                <value>Partner</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
