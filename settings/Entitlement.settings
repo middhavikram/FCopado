@@ -4,8 +4,8 @@
     <assetLookupLimitedToActiveEntitlementsOnContact>false</assetLookupLimitedToActiveEntitlementsOnContact>
     <assetLookupLimitedToSameAccount>false</assetLookupLimitedToSameAccount>
     <assetLookupLimitedToSameContact>false</assetLookupLimitedToSameContact>
-    <enableEntitlementVersioning>true</enableEntitlementVersioning>
-    <enableEntitlements>true</enableEntitlements>
+    <enableEntitlementVersioning>false</enableEntitlementVersioning>
+    <enableEntitlements>false</enableEntitlements>
     <entitlementLookupLimitedToActiveStatus>false</entitlementLookupLimitedToActiveStatus>
     <entitlementLookupLimitedToSameAccount>false</entitlementLookupLimitedToSameAccount>
     <entitlementLookupLimitedToSameAsset>false</entitlementLookupLimitedToSameAsset>
